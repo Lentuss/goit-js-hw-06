@@ -15,6 +15,6 @@ function submit(event) {
     return alert("Заполните, пожалуйста, все поля!");
   }
 
-  console.log(`${form.firstElementChild.innerText}: ${email.value}, ${form.firstElementChild.nextElementSibling.innerText}: ${password.value}`);
+  console.log(elements);
   event.currentTarget.reset();
 };
